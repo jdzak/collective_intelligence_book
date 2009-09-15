@@ -1,7 +1,5 @@
-import sys
-sys.path = ['..'] + sys.path
-
 import recommendations
+import recommendations_data
 import unittest
 
 class TestRecommendations(unittest.TestCase):
